@@ -16,3 +16,9 @@ To run this example we need to pass the flags `--allow-write --allow-read` as De
 deno run --allow-write --allow-read createAndReadFile.ts
 ```
 This will create a file, write data to it, read from it and send it to stdout and then delete the file.
+
+### subprocesses
+Running this example needs the `--allow-run` flag which allows running subprocesses.
+```
+deno run --allow-run subprocesses.ts 
+```
